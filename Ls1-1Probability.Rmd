@@ -1,0 +1,32 @@
+---
+title: "Ls 1-1 Probability"
+output: html_document
+---
+
+# Probability
+* *Probability*: given a random experiment (say rolong a die), a *probability* measure is  a population quantity that summarizes the randomness.
+
+* probability that nothing *(impossible)* occurs = *0*, that something *(certain)* occurs is *1*.
+
+* probability of something = 1 - probability of the *opposite* occurring.
+
+* if A implies occurrence of B, then 
+    $P(A) < P(B)$
+
+* probability of the *union* of any two sets of outcomes that have *nothing in common* (mutually exclusive) is the sum of respective probabilities
+
+    $P(A \cup B) = P(A)+ P(B)$
+    
+* For any two events, probability of *at least one occurs* = the sum of their probabilities - their intersection
+
+    $P(A \cup B) = P(A)+ P(B) - P(A \cap B)$
+
+# Density & Mass function: bell curve
+
+## Random variable
+
+A *random variable* is a numeric outcome of an experiment.
+*discrete* / *continuous*
+ 
+### Probability Mass Function (PMF)
+* evaluates the probability that the discrete random variable takes on a specific value
