@@ -171,13 +171,13 @@ pre code {
 <div id="probability" class="section level1">
 <h1>Probability</h1>
 <ul>
-<li><p><em>Probability</em>: given a random experiment (say rolong a die), a <em>probability</em> measure is a population quantity that summarizes the randomness.</p></li>
-<li><p>probability that nothing <em>(impossible)</em> occurs = <em>0</em>, that something <em>(certain)</em> occurs is <em>1</em>.</p></li>
-<li><p>probability of something = 1 - probability of the <em>opposite</em> occurring.</p></li>
+<li><p><strong>Probability</strong>: given a random experiment (say rolling a die), a <strong>probability</strong> measure is a population quantity that summarizes the randomness.</p></li>
+<li><p>probability that nothing <strong>(impossible)</strong> occurs = <strong>0</strong>, that something <strong>(certain)</strong> occurs is <strong>1</strong>.</p></li>
+<li><p>probability of something = 1 - probability of the <strong>opposite</strong> occurring.</p></li>
 <li><p>if A implies occurrence of B, then <span class="math inline">\(P(A) &lt; P(B)\)</span></p></li>
-<li><p>probability of the <em>union</em> of any two sets of outcomes that have <em>nothing in common</em> (mutually exclusive) is the sum of respective probabilities</p>
+<li><p>probability of the <strong>union</strong> of any two sets of outcomes that have <strong>nothing in common</strong> (mutually exclusive) is the sum of respective probabilities</p>
 <p><span class="math inline">\(P(A \cup B) = P(A)+ P(B)\)</span></p></li>
-<li><p>For any two events, probability of <em>at least one occurs</em> = the sum of their probabilities - their intersection</p>
+<li><p>For any two events, probability of <strong>at least one occurs</strong> = the sum of their probabilities - their intersection</p>
 <p><span class="math inline">\(P(A \cup B) = P(A)+ P(B) - P(A \cap B)\)</span></p></li>
 </ul>
 </div>
@@ -185,12 +185,25 @@ pre code {
 <h1>Density &amp; Mass function: bell curve</h1>
 <div id="random-variable" class="section level2">
 <h2>Random variable</h2>
-<p>A <em>random variable</em> is a numeric outcome of an experiment. <em>discrete</em> / <em>continuous</em></p>
+<p>A <strong>random variable</strong> is a numeric outcome of an experiment. <em>discrete</em> / <em>continuous</em></p>
 <div id="probability-mass-function-pmf" class="section level3">
 <h3>Probability Mass Function (PMF)</h3>
 <ul>
-<li>evaluates the probability that the discrete random variable takes on a specific value</li>
+<li>evaluates the probability that the discrete random variable takes on a specific value
+<ul>
+<li>always <span class="math inline">\(\geq 0\)</span> for every possible outcome</li>
+<li><span class="math inline">\(\sum\)</span> possible values that the variable can take = 1</li>
+</ul></li>
 </ul>
+<div id="bernouli-distribution-example-coin-flips" class="section level4">
+<h4>Bernouli distribution example: <strong>coin flips</strong></h4>
+<p><span class="math inline">\(X = 0\)</span> :tail</p>
+<p><span class="math inline">\(X = 1\)</span> :head</p>
+<p><span class="math inline">\(P(X = x) = (\frac{1}{2})^x(\frac{1}{2})^{1-x}\)</span> for <span class="math inline">\(X = 0, 1\)</span></p>
+<ul>
+<li><strong>General form</strong>: <span class="math inline">\(p(x) = (\theta)^x(1-\theta)^{1-x}\)</span></li>
+</ul>
+</div>
 </div>
 </div>
 </div>
